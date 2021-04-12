@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+ul li {
+  padding: 0 5px;
+}
+ul li a {
+  text-decoration: none;
+}
+nav button {
+  border: none;
+  background-color: blue;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.google-icon {
+  height: 20px;
+  position: relative;
+  top: 17px;
+  padding-right: 10px;
+}
+nav img {
+  position: relative;
+  top: 7px;
+  padding: 0 5px;
+}
+main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.google-image {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -30px;
+}
+input {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-top: -20px;
+  border-radius: 30px;
+  border: 1px solid #555;
+}
+.button-container {
+  margin: 20px;
+}
+button {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #555;
+  margin-right: 5px;
+}
+p {
+  font-size: 14px;
+}
+main:nth-child(4) {
+  color: purple;
+}
+.Par {
+  color: #222;
+}
+span {
+  color: purple;
+}
+footer {
+  margin-top: 130px;
+  background-color: #dcdcdc;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+footer > p:first-child {
+  text-align: left;
+  color: #666;
+}
+footer > p:last-child {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #666;
+}
+div.footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer span {
+  display: inline-block;
+}
+span.footer p {
+  display: inline-block;
+  color: #666;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 30px;
+  }
+  p {
+    font-size: 13px;
+  }
+  nav button {
+    font-size: 12px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .google-image {
+    width: 250px;
+  }
+  input {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    right: 60px;
+    margin-top: 2px;
+    padding: 12px;
+  }
+  p.par {
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 180px;
+  }
+  footer > p:first-child {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  span.footer p {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
